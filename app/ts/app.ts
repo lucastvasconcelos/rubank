@@ -1,1 +1,2 @@
-let negociacao = new Negociacao("20/10/2012",10,20)
+const controller = new NegociacaoController();
+document.querySelector("form").addEventListener("click",controller.adiciona.bind(controller))
