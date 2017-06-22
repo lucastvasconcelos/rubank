@@ -1,2 +1,2 @@
 const controller = new NegociacaoController();
-document.querySelector("form").addEventListener("click", controller.adiciona.bind(controller));
+document.querySelector("#buttonSubmit").addEventListener("click", controller.adiciona.bind(controller));
